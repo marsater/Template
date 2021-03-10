@@ -1,0 +1,56 @@
+\documentclass[12pt, a4]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage[swedish, english]{babel}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{float}
+\usepackage{hyperref}
+\usepackage{cite}
+\usepackage{tikz}
+
+
+
+\title{Labb Stråloptik}
+\author{David Mårsäter}
+\date{\today}
+
+
+\begin{document}
+
+\maketitle
+\begin{center}
+    \includegraphics[width=8cm]{images/UU_logo.pdf}
+\end{center}
+
+\selectlanguage{english}
+\newpage
+\tableofcontents
+\newpage
+
+
+\section{Inledning}
+\input{sections/Inledning}
+
+
+\section{Bakgrund}
+\input{sections/bakgrund}
+
+\section{Metod}
+\input{sections/metod}
+
+\section{Resultat}
+\input{sections/resultat}
+
+\section{Diskussion}
+\input{sections/diskussion}
+
+\section{Slutsats}
+\input{sections/slutsats}
+
+\newpage
+\bibliography{referenser}
+\bibliographystyle{ieeetr}
+
+\end{document}
